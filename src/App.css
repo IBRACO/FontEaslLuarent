@@ -1,0 +1,74 @@
+.homediv1{
+  position: relative;
+  text-align: center;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  /* background-image: url("img/children-1822688_1920.jpg"); */
+  background-image: url("img/IMG-20210801-WA0013.jpg");
+  
+  background-position-y: center;
+  background-position-x: center;
+  background-size: cover;
+  margin-bottom: 2em;
+}
+
+.hom2{
+  margin-bottom:300px;
+  color:white;
+}
+
+@media screen and (max-width: 640px) {
+  .homediv1{
+    /* background-image:unset; */
+     background-image: url("img/peti.jpg"); 
+     
+    /* background-image: url("img/children-1822688_1920.jpg"); */
+  }
+  .hom2{
+    font-weight: bold;
+    font-family: "Alegreya", "Times New Roman", serif;
+    color:white;
+    font-size: 5px;
+    /* position:relative */
+    
+  }
+} 
+/* .homediv2{
+  margin: auto;
+  width: 100%;
+} */
+.homediv2{
+  /* height: 100vh; */
+}
+.homh1{
+  font-weight: bold;
+  font-family: "Alegreya", "Times New Roman", serif;
+  color:white;
+  font-size: 5em;
+  /* position:relative */
+  
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.dc{
+  background-color: #CFDFD1;
+  height: 100vh;
+}
+.wrapper{
+  background-color:lightgray;
+  padding: 100px;
+  border-radius: 10px;
+}
+.homdivp{
+  background-color:black;
+}
